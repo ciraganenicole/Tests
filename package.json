@@ -1,0 +1,24 @@
+{
+    "name": "tests",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "build": "cross-env NODE_ENV=production webpack --config build/webpack.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ciraganenicole/Tests.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ciraganenicole/Tests/issues"
+    },
+    "homepage": "https://github.com/ciraganenicole/Tests#readme",
+    "devDependencies": {
+        "cross-env": "^6.0.3",
+        "jest": "^27.5.1"
+    }
+}
